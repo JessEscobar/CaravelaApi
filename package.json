@@ -1,0 +1,24 @@
+{
+  "name": "caravelaapi",
+  "version": "1.0.0",
+  "description": "Api consultas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ink-docstrap": "^1.3.2",
+    "jsdoc": "^3.6.6",
+    "pg": "^8.5.1",
+    "vue-router": "^3.4.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
